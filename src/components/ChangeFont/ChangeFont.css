@@ -1,0 +1,11 @@
+.change-font-wrapper {
+    margin-top: 10vh;
+}
+input#slider {
+    margin: 0px auto;
+    width: 100%;
+}
+label {
+    text-align: center;
+    display: block !important;
+}

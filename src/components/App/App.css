@@ -1,0 +1,10 @@
+body {
+    background-image:  linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('../../assets/bg.jpg');
+}
+.col-md-12{
+    height: 220px;
+    border: solid 2px black;
+}
+.container-fluid {
+    margin-top: 10px;
+}

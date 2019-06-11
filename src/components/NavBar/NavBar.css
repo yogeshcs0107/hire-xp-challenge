@@ -1,0 +1,18 @@
+.nav-item {
+    margin: 10px 10px;
+}
+.nav-pills{
+    flex-direction: column;
+}
+.nav-item a{
+    padding: 1rem;
+    font-size: 1rem;
+    margin: 10px 10px;
+    background-color: #ffffff;
+    border: 2px solid #232323 !important;
+    text-align: center;
+    color: #6c757d;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #c0c0c0 !important;
+}

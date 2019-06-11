@@ -1,0 +1,22 @@
+.btn {
+    margin-top: 10px;
+    background-color: #d9d9d9 !important;
+    border: 2px solid #7b7b7b !important;
+}
+li {
+    cursor: pointer;
+}
+img {
+    width: 60%;
+    margin:20px auto;
+    display: block;
+}
+.jumbotron {
+    background-color : #c0c0c0;
+}
+
+@media (min-width: 576px) {
+    .jumbotron {
+        padding: 1rem 2rem;
+    }
+}
