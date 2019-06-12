@@ -7,8 +7,6 @@ class Home extends React.Component {
         this.state = {'lists': ['List Item 1', 'List Item 2'], 'buttonText': 'Add More'};
     }
     handleClick = () => {
-        let value = this.inputVal;
-        let btnText = this.addBtn;
         if(!this.addBtn.classList.contains('active')) {
             if(this.inputVal.classList.contains('d-none')) {
                 this.inputVal.classList.remove('d-none');
@@ -33,7 +31,7 @@ class Home extends React.Component {
     }
     removeItem = (e) => {
         let lists = this.state.lists;
-        lists.slice(0, lists.indexOf(e.currentTarget.innerHTML));
+        lists.splice(lists.indexOf(e.currentTarget.innerHTML), 1);
         this.setState({lists});
     }
     render () {

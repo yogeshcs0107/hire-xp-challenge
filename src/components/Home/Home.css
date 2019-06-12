@@ -5,6 +5,14 @@
 }
 li {
     cursor: pointer;
+    margin: 0;
+    padding: 5px 30px;
+    list-style: none;
+    background-image: url('/static/media/close-button-png-27.e08deb6b.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+
 }
 img {
     width: 60%;
@@ -14,7 +22,9 @@ img {
 .jumbotron {
     background-color : #c0c0c0;
 }
-
+button.close {
+    float: left;
+}
 @media (min-width: 576px) {
     .jumbotron {
         padding: 1rem 2rem;
